@@ -1,4 +1,4 @@
-import { MapPin, Truck } from "lucide-react";
+import { Truck } from "lucide-react";
 
 const N8N_FORM_URL = "https://YOUR-N8N-INSTANCE.app/form/YOUR-FORM-ID";
 
@@ -14,8 +14,7 @@ const PickupCTA = () => (
         Pickup cost is calculated based on your distance — get an instant free quote.
       </p>
       <p className="text-primary-foreground/60 text-sm mb-8">
-        <MapPin className="inline h-4 w-4 mr-1" />
-        Serving the greater Tucson metro area, including Green Valley and Saddlebrook
+        Serving Green Valley, Tucson, Saddlebrook, and southern Arizona
       </p>
       <a
         href={N8N_FORM_URL}
