@@ -6,12 +6,18 @@ const N8N_FORM_URL = "https://YOUR-N8N-INSTANCE.app/form/YOUR-FORM-ID";
 const Navbar = () => (
   <nav className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-border">
     <div className="container flex items-center justify-between py-3">
-      <div className="flex items-center gap-3">
-        <img src={logo} alt="M&A Mobile Motorcycle Repair and Towing" className="h-12 w-12" />
+      <a href="#" className="flex items-center gap-3">
+        <img src={logo} alt="Road Wrenches" className="h-12 w-12" />
         <div className="hidden sm:block">
-          <p className="font-heading text-lg font-bold text-primary leading-tight">M&A MOBILE MOTORCYCLE</p>
-          <p className="text-xs text-muted-foreground tracking-widest">REPAIR AND TOWING</p>
+          <p className="font-heading text-lg font-bold text-primary leading-tight">ROAD WRENCHES</p>
+          <p className="text-[10px] text-muted-foreground tracking-widest uppercase">M&A Mobile Motorcycle Repair & Towing</p>
         </div>
+      </a>
+      <div className="hidden md:flex items-center gap-6 font-heading text-sm uppercase tracking-wider">
+        <a href="#how-it-works" className="text-muted-foreground hover:text-primary transition-colors">How It Works</a>
+        <a href="#services" className="text-muted-foreground hover:text-primary transition-colors">Services</a>
+        <a href="#pricing" className="text-muted-foreground hover:text-primary transition-colors">Pricing</a>
+        <a href="#service-area" className="text-muted-foreground hover:text-primary transition-colors">Area</a>
       </div>
       <div className="flex items-center gap-4">
         <a href="tel:5209086644" className="flex items-center gap-2 text-primary font-heading text-lg hover:text-brand-orange-light transition-colors">

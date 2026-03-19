@@ -4,7 +4,6 @@ const N8N_FORM_URL = "https://YOUR-N8N-INSTANCE.app/form/YOUR-FORM-ID";
 
 const Hero = () => (
   <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-    {/* Background image */}
     <div className="absolute inset-0">
       <img src={heroImage} alt="" className="w-full h-full object-cover" />
       <div className="absolute inset-0 bg-gradient-to-r from-background via-background/80 to-background/40" />
@@ -12,16 +11,18 @@ const Hero = () => (
 
     <div className="relative z-10 container py-32 text-center md:text-left">
       <div className="max-w-2xl">
-        <p className="font-heading text-primary uppercase tracking-[0.3em] text-sm mb-4">
-          Tucson &bull; Green Valley &bull; Saddlebrook
-        </p>
-        <h1 className="font-heading text-5xl md:text-7xl font-bold text-foreground leading-tight mb-6">
-          35 Years of Master Level{" "}
-          <span className="text-primary">HD Service</span>{" "}
-          Directly to You
+        <h1 className="font-heading text-5xl md:text-7xl font-bold text-foreground leading-tight mb-2">
+          Road <span className="text-primary">Wrenches</span>
         </h1>
-        <p className="text-lg text-muted-foreground mb-8 max-w-xl">
-          We come to you — or we'll pick up your bike with our secure trailer.
+        <p className="font-heading text-sm md:text-base text-muted-foreground uppercase tracking-[0.2em] mb-6">
+          M&A Mobile Motorcycle Repair & Towing
+        </p>
+        <p className="text-lg md:text-xl text-foreground/90 mb-3 max-w-xl font-heading">
+          Bringing 35 years of master-level HD service directly to{" "}
+          <span className="text-primary font-bold">YOU</span> — when and where you need it.
+        </p>
+        <p className="text-muted-foreground mb-8 max-w-xl">
+          We pick up your bike, fix it at our shop, and deliver it back running and road-ready.
           Get an instant quote for pickup based on your location.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
@@ -41,6 +42,9 @@ const Hero = () => (
           </a>
         </div>
         <p className="text-muted-foreground text-sm mt-4">Se Habla Español</p>
+        <p className="text-muted-foreground/60 text-xs mt-1">
+          Green Valley &bull; Tucson &bull; Saddlebrook
+        </p>
       </div>
     </div>
   </section>
