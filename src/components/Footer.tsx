@@ -34,7 +34,7 @@ const Footer = () => (
           <p className="text-muted-foreground text-sm">Se Habla Español</p>
           <div className="flex items-center gap-1 text-muted-foreground text-sm justify-center md:justify-end">
             <MapPin className="h-4 w-4" />
-            <span>Green Valley &bull; Tucson &bull; Saddlebrook</span>
+            <span>Tucson &bull; Green Valley &bull; Saddlebrook</span>
           </div>
         </div>
       </div>

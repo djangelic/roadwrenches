@@ -43,7 +43,7 @@ const Hero = () => (
         </div>
         <p className="text-muted-foreground text-sm mt-4">Se Habla Español</p>
         <p className="text-muted-foreground/60 text-xs mt-1">
-          Green Valley &bull; Tucson &bull; Saddlebrook
+          Tucson &bull; Green Valley &bull; Saddlebrook
         </p>
       </div>
     </div>

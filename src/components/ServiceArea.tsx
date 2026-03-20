@@ -1,8 +1,8 @@
 import { MapPin } from "lucide-react";
 
 const areas = [
-  { name: "Green Valley", desc: "Home base" },
-  { name: "Tucson", desc: "Metro area" },
+  { name: "Tucson", desc: "Home base — 4th St & Dodge" },
+  { name: "Green Valley", desc: "& surrounding areas" },
   { name: "Saddlebrook", desc: "& surrounding areas" },
 ];
 

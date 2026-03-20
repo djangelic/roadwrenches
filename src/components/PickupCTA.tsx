@@ -14,7 +14,7 @@ const PickupCTA = () => (
         Pickup is <span className="font-bold">free</span> within 15 miles — beyond that, just $1.50/mile.
       </p>
       <p className="text-primary-foreground/60 text-sm mb-8">
-        Serving Green Valley, Tucson, Saddlebrook, and southern Arizona
+        Serving Tucson, Green Valley, Saddlebrook, and southern Arizona
       </p>
       <a
         href={N8N_FORM_URL}
