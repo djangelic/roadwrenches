@@ -1,6 +1,6 @@
 import heroImage from "@/assets/hero-motorcycle.jpg";
 
-const N8N_FORM_URL = "https://YOUR-N8N-INSTANCE.app/form/YOUR-FORM-ID";
+const N8N_FORM_URL = "https://n8n.aztechsol.com/form/e6f24025-4f6a-4a2b-99dc-89eb52fc57f8";
 
 const Hero = () => (
   <section className="relative min-h-screen flex items-center justify-center overflow-hidden">

@@ -1,4 +1,4 @@
-import { Check, DollarSign } from "lucide-react";
+import { Check } from "lucide-react";
 
 const Pricing = () => (
   <section id="pricing" className="py-24 bg-background">
@@ -53,15 +53,7 @@ const Pricing = () => (
         ))}
       </div>
 
-      <div className="mt-12 text-center">
-        <div className="inline-flex items-center gap-2 bg-card border border-border rounded-lg px-6 py-3">
-          <DollarSign className="h-5 w-5 text-primary" />
-          <p className="text-muted-foreground text-sm">
-            Typical labor estimates: <span className="text-foreground font-semibold">under $500</span>. Moderate repairs (brakes, signals, fuel, oil):{" "}
-            <span className="text-foreground font-semibold">under $1,500 total</span>.
-          </p>
-        </div>
-      </div>
+
     </div>
   </section>
 );

@@ -28,12 +28,12 @@ const About = () => (
         ))}
       </div>
 
-      {/* Testimonials placeholder */}
+      {/* Testimonials */}
       <div className="mt-16 max-w-2xl mx-auto text-center bg-card border border-border rounded-lg p-8">
-        <p className="text-muted-foreground italic text-sm mb-4">
-          "Customer testimonials coming soon — but ask around the Tucson riding community. Our reputation speaks for itself."
+        <p className="text-foreground italic mb-4">
+          "After I laid my bike down riding down Madera Canyon, I didn't know what to do. The dealers wanted a fortune just to look at it. Marcos and Andy took great care of me, and got me back on the road without spending a fortune. I hope I don't drop my bike again, but if I do, I know who I will use! Thanks Guys!"
         </p>
-        <p className="text-primary font-heading text-sm font-bold">— Marcos & Andy</p>
+        <p className="text-primary font-heading text-sm font-bold">— Angel M., Sahuarita AZ</p>
       </div>
     </div>
   </section>

@@ -1,6 +1,6 @@
 import { Truck } from "lucide-react";
 
-const N8N_FORM_URL = "https://YOUR-N8N-INSTANCE.app/form/YOUR-FORM-ID";
+const N8N_FORM_URL = "https://n8n.aztechsol.com/form/e6f24025-4f6a-4a2b-99dc-89eb52fc57f8";
 
 const PickupCTA = () => (
   <section className="py-24 bg-primary">
@@ -11,7 +11,7 @@ const PickupCTA = () => (
       </h2>
       <p className="text-primary-foreground/80 text-lg max-w-2xl mx-auto mb-4">
         We have a secure trailer and can pick up your motorcycle from anywhere in the Tucson area.
-        Pickup cost is calculated based on your distance — get an instant free quote.
+        Pickup is <span className="font-bold">free</span> within 15 miles — beyond that, just $1.50/mile.
       </p>
       <p className="text-primary-foreground/60 text-sm mb-8">
         Serving Green Valley, Tucson, Saddlebrook, and southern Arizona
@@ -24,6 +24,9 @@ const PickupCTA = () => (
       >
         Get Your Free Pickup Quote
       </a>
+      <p className="text-primary-foreground/60 text-xs mt-4">
+        ✓ Free initial assessment — for a limited time
+      </p>
     </div>
   </section>
 );
